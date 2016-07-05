@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="Idon'tknowit'suptoyou.css">
+		<script src="html.js" type="text/javascript"></script>
+		<title>
+		Chat box
+		</title>
+	
+	</head>
+	
+	<body onload="test()">
+	
+		<h1>
+		The chat box place where stuff happens.
+		</h1>
+		
+		<!-- <p id="box"></p> -->
+		<iframe src="/default.asp" width="200" height="200" scrolling="yes" id="box">
+		</iframe>
+		
+		<form onsubmit="javascript:send();return false;" id="sendf">
+		
+		<input type="text" id="text">
+		
+		</form>
+		
+		<button id="send" onclick="send();">
+		Send
+		</button>
+	
+	</body>
+
+</html>
